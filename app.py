@@ -29,11 +29,11 @@ def customer_test():
 
 @app.route('/customer/list')
 def customer_list():
-    data = [{'name':'王曉明1', 'gender':'男', 'age':20},
+    data = [{'name':'王大明1', 'gender':'男', 'age':20},
             {'name':'王曉明2', 'gender':'男', 'age':21},
-            {'name':'王曉明3', 'gender':'女', 'age':22},
+            {'name':'王大明3', 'gender':'女', 'age':22},
             {'name':'王曉明4', 'gender':'男', 'age':23},
-            {'name':'王曉明5', 'gender':'男', 'age':24},]
+            {'name':'王大明5', 'gender':'男', 'age':24},]
     
     return render_template('list.html', data=data)
 
